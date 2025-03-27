@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso CSS</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aprendecss.com">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://aprendecss.com/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aprendecss.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://aprendecss.com/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">HELL LET LOOSE</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Infantería</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blindados</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Reconocimiento</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Oficiales</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Comandantes</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">APRENDE EL ARTE DE LA GUERRA</h1>
+            <p class="hero__paragraph">Hell Let Loose es un juego de disparos bestial en primera persona de la 
+                Segunda Guerra Mundial que permite librar batallas épicas de 100 jugadores con infantería, tanques, 
+                artillería y un frente dinámico.</p>
+            <a href="#" class="cta">Enlístate ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué aprenderás en este simulador?</h2>
+            <p class="about__paragraph">🧠 PENSAMIENTO TÁCTICO Y VISIÓN ESTRATÉGICA 🧠</p>
+            <p class="about__paragraph">Hell Let Loose te obliga a pensar como parte de una guerra real. 
+                No se trata solo de disparar, sino de anticiparte a los movimientos del enemigo, leer el mapa, 
+                coordinar con otros escuadrones y planificar rutas de ataque o defensa a largo plazo.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/colaboracion.png" class="about__icon">
+                    <h3 class="about__title">Trabajo en equipo y comunicación efectiva</h3>
+                    <p class="about__paragrah">Mejora tu capacidad para trabajar en grupo, liderar y colaborar 
+                        en ambientes de alta presión, tal como en proyectos de ingeniería o situaciones laborales.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/bajopresion.png" class="about__icon">
+                    <h3 class="about__title">Toma de decisiones bajo presión</h3>
+                    <p class="about__paragrah">Fortalece tu habilidad para analizar opciones en poco tiempo y elegir 
+                        la mejor estrategia, algo esencial en resolución de problemas técnicos o gestión de crisis.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/recursos.png" class="about__icon">
+                    <h3 class="about__title">Gestión de recursos y estrategia</h3>
+                    <p class="about__paragrah">Desarrolla pensamiento estratégico, planificación y 
+                        administración de recursos, competencias clave en la gestión de proyectos y planificación de sistemas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Hell Let Loose es un videojuego multijugador en primera persona</h2>
+                    <p class="knowledge__paragraph">Desarrollado por el estudio australiano Black Matter y publicado por Team17 para 
+                        Microsoft Windows. Fue lanzado en Steam como un título de acceso anticipado el 6 de junio de 2019 y en el 
+                        2021 llegó para PlayStation 5 y Xbox Series X/S. El juego se desarrolla durante la Segunda Guerra Mundial 
+                        y bajo el motor Unreal Engine 4.</p>
+                    <a href="#" class="cta">El Tío Sam te necesita, apoya AHORA !</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/team17.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">PLATAFORMAS EN LAS QUE PUEDES JUGAR</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">CONSOLA</p>
+                    <h3 class="price__price">PLAYSTATION</h3>
+
+                    <div class="price__items">
+                        <article class="about__icons">
+                            <img src="./images/playstation.jpg" class="about__icon">
+                        </article>
+                    </div>
+
+                    <a href="#" class="price__cta">ÚNETE AHORA</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">PC</p>
+                    <h3 class="price__price">STEAM</h3>
+
+                    <div class="price__items">
+                        <article class="about__icons">
+                            <img src="./images/8DRbfb.png" class="about__icon">
+                        </article>
+                    </div>
+
+                    <a href="#" class="price__cta">ÚNETE AHORA</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">CONSOLA</p>
+                    <h3 class="price__price">XBOX SERIES</h3>
+
+                    <div class="price__items">
+                        <article class="about__icons">
+                            <img src="./images/xboxseries.jpg" class="about__icon">
+                        </article>
+                    </div>
+
+                    <a href="#" class="price__cta">ÚNETE AHORA</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">INFANTERÍA<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Representa la columna vertebral del campo de batalla, conformada por 
+                            soldados que combaten principalmente a pie y cumplen una variedad de roles tácticos esenciales. 
+                            Estos jugadores operan en escuadras organizadas y tienen funciones como asalto, apoyo, médico, 
+                            ingeniero y más.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/infanteria.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">BLINDADOS<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Están conformados por unidades que operan vehículos de combate como tanques 
+                            ligeros, medianos y pesados, cumpliendo un rol crucial de apoyo y superioridad de fuego en el campo 
+                            de batalla. Estos vehículos son tripulados generalmente por una escuadra de tres jugadores: conductor, 
+                            artillero y comandante.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/blindados.png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">RECONOCIMIENTO<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Está compuesta por pequeños equipos altamente especializados cuyo objetivo 
+                            principal es observar, identificar y eliminar amenazas clave a larga distancia. Aunque no capturan puntos 
+                            como la infantería, su impacto táctico es enorme, ya que desorganizan al enemigo y ofrecen información 
+                            valiosa al comandante para la toma de decisiones estratégicas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/recon.webp" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">OFICIALES<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Es el líder de cada escuadra (infantería, reconocimiento o blindados) 
+                            y actúa como el enlace directo entre sus compañeros de escuadra y el Comandante del equipo. 
+                            Su función principal es coordinar acciones, dar órdenes tácticas. Además, el oficial puede solicitar 
+                            apoyo como bombardeos, suministros o transporte, siempre en coordinación con el comandante. Su liderazgo 
+                            efectivo puede marcar la diferencia entre una escuadra desorganizada y una unidad eficiente que cumpla 
+                            objetivos estratégicos.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/oficial2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">COMANDANTES<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Es la figura máxima de autoridad dentro del equipo. Tiene una visión global 
+                            del campo de batalla y es responsable de coordinar a todas las escuadras, administrar recursos 
+                            (municiones, combustible y suministros), y tomar decisiones críticas que afectan el rumbo de la partida. 
+                            Tiene acceso a habilidades especiales como bombardeos aéreos, refuerzos, construcción de garrisons, y 
+                            vehículos desde la base</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/comandante.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <section class="testimony__body testimony__body--show" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">CARENTAN<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">🗺️ Ubicación: Normandía, Francia</p>
+                        <p class="testimony__review">⚔️ Tipo de combate: Urbano y rural mixto</p>
+                        <p class="testimony__review">📌 Descripción:</p>
+                        <p class="testimony__review">Carentan es uno de los mapas más icónicos del juego, 
+                            caracterizado por su combinación de calles estrechas en el centro del pueblo y campos abiertos en las afueras. 
+                            El combate aquí requiere una excelente coordinación entre infantería y blindados. Las casas y estructuras permiten 
+                            intensos enfrentamientos de corto alcance, mientras que los campos exigen movimientos cubiertos y el uso de humo 
+                            para no quedar expuesto. Es ideal para escuadras tácticas que sepan adaptarse rápidamente entre ambientes urbanos 
+                            y rurales.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/carentan.webp" class="testimony__img">
+                    </figure>
+                </section>
+            </div>
+        </section>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <section class="testimony__body testimony__body--show" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">FOY<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">🗺️ Ubicación: Bosques de las Ardenas, Bélgica</p>
+                        <p class="testimony__review">⚔️ Tipo de combate: Bosque denso con áreas abiertas</p>
+                        <p class="testimony__review">📌 Descripción:</p>
+                        <p class="testimony__review">Foy se desarrolla en un paisaje nevado, donde la visibilidad puede jugar 
+                            tanto a favor como en contra. Es un mapa que pone a prueba el sigilo y la coordinación. Los árboles 
+                            brindan cobertura natural, pero también hacen difícil detectar al enemigo. Es muy común que los combates 
+                            se den a mediana distancia, por lo que francotiradores y escuadras Recon son muy efectivos aquí. 
+                            El control del bosque y las carreteras principales es clave para el avance.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/Foy.webp" class="testimony__img">
+                    </figure>
+                </section>
+            </div>
+        </section>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <section class="testimony__body testimony__body--show" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">STALINGRAD<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">🗺️ Ubicación: Unión Soviética</p>
+                        <p class="testimony__review">⚔️ Tipo de combate: Urbano devastado y líneas industriales</p>
+                        <p class="testimony__review">📌 Descripción:</p>
+                        <p class="testimony__review">Stalingrad es un mapa centrado en la guerra urbana total. 
+                            Con zonas de ruinas, fábricas destruidas y posiciones fortificadas, el combate es brutal y continuo. 
+                            La artillería y el trabajo de ingenieros son cruciales para abrir caminos entre las estructuras 
+                            colapsadas. El trabajo en equipo entre infantería y apoyo logístico marca la diferencia en la victoria. 
+                            Es un mapa que favorece a los jugadores con orientación táctica y conciencia del entorno.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/STALINGRAD.jpg" class="testimony__img">
+                    </figure>
+                </section>
+            </div>
+        </section>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <section class="testimony__body testimony__body--show" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">UTAH BEACH<span class="testimony__course"></span></h2>
+                        <p class="testimony__review">🗺️ Ubicación: Costa de Normandía, Francia</p>
+                        <p class="testimony__review">⚔️ Tipo de combate: Asalto anfibio y combate en campo abierto</p>
+                        <p class="testimony__review">📌 Descripción:</p>
+                        <p class="testimony__review">Utah Beach representa el famoso desembarco del Día D. Las fuerzas aliadas 
+                            deben cruzar la playa bajo fuego enemigo para penetrar las defensas alemanas. El mapa presenta una 
+                            transición desde combates abiertos en la costa hacia campos, pueblos y caminos rurales tierra adentro. 
+                            Las posiciones defensivas al inicio son intensas, por lo que el uso coordinado de humo, vehículos y apoyo 
+                            aéreo es esencial. A medida que los aliados avanzan, la dinámica del mapa cambia completamente.
+
+                        </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/UTAH.jpg" class="testimony__img">
+                    </figure>
+                </section>
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">NO TENGAS MIEDO DE PREGUNTAR SOLDADO, DE ESTO DEPENDERÁ TU VIDA EN COMBATE</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">🔧¿Qué son los Outposts (OP)?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Son puntos de reaparición pequeños, exclusivos para los 
+                            miembros de una escuadra (squad spawn point).</p>   
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">🔧¿Qué son los Garrisons (Garrys)?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Son puntos de reaparición principales para todo el equipo (no solo tu escuadra).</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿ESTÁS LISTO PARA LUCHAR?</h2>
+                <p class="questions__copy">🎖️ "En el campo de batalla no hay héroes solitarios, hay equipos que hacen historia. 
+                    En Hell Let Loose, cada paso que das, cada orden que das, y cada disparo que haces, puede cambiar el rumbo 
+                    de la guerra. No se trata solo de matar, se trata de coordinar, pensar y avanzar con inteligencia. Elige tu rol, 
+                    confía en tu escuadra y demuestra que no eres solo un jugador… eres parte de una máquina táctica imparable. 
+                    ¡Adelante, soldado!" ⚔️</p>
+                <a href="#" class="cta">PELEA AHORA</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">HELL LET LOOSE</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Infantería</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blindados</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Reconocimiento</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Oficiales</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Comandantes</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">QUÉ ESPERAS PARA ENLISTARTE !</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; CARLOS EDUARDO CÁRDENAS LOAIZA</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
